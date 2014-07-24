@@ -1,0 +1,22 @@
+<div class="jumbotron">
+  <h1>Here is your Quiz</h1>
+ <!--  <p class="lead">
+    <img src="images/yeoman.png" alt="I'm Yeoman"><br>
+    Always a pleasure scaffolding your apps.
+  </p>
+  <p><a class="btn btn-lg btn-success" ng-href="#">Splendid!<span class="glyphicon glyphicon-ok"></span></a></p> -->
+  <div ng-controller= 'QuizCtrl' class= 'col-md-8'>
+    <div ng-repeat = 'question in quiz' class = 'col-md-6' >
+      <div class = 'panel panel-default'>
+
+        <div class="panel-heading">
+          {{question.question}}
+        </div>
+        <div class="panel-body">
+          {{question.answer}}
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>

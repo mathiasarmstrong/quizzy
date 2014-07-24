@@ -1,0 +1,8 @@
+{
+  "generator-backbone": {
+    "appPath": "app",
+    "appName": "Apps",
+    "testFramework": "mocha",
+    "templateFramework": "lodash"
+  }
+}
